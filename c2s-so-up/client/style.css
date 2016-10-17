@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.progress{
+     width: 300px;
+    height: 25px;
+    border: 1px solid #333;
+    display: inline-block;
+    vertical-align: middle;
+}
+.bar{
+    display: inline-block;
+    background-color: #333;
+    height: 25px;
+}
+#file_drop{
+    width: 300px;
+    height: 100px;
+    border: 1px solid #666;
+}
+.updiv{
+    border: 1px solid #666;
+    padding:50px;
+}
+.downdiv{
+    border: 1px solid #666;
+    padding:50px;
+}
+.fileview{
+    width: 600px;
+    height: 300px;
+}
+#content{
+    width: 800px;
+    background-color: #000;
+    color: #fff;   
+    height: 300px;
+    display: inline-block;
+    overflow: scroll;
+}
+.logline{
+  min-height: 25px;
+  padding-left: 10px;
+}

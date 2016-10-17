@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Upload Files</title>
+    <script src="client.js"></script>
+    <script src="socket.io.js"></script>
+    <script type="text/javascript" src="event.js"></script>
+    <script type="text/javascript" src="visual.js"></script>
+    <link type="text/css" rel="stylesheet" href="style.css"></link>
+</head>
+
+<body>
+      <iframe src="http://xx.xx.xx.xx:5666" class="fileview">
+    </iframe>
+      <div id="content"></div>
+    <div class="updiv">
+        上传文件
+        <br/><br/><br/>
+        <br/> 进度条：
+        <p class="progress" id="progress"><span class="bar" id="bar"></span></p>
+        <br/>
+        <br/>
+        <p><button id="upload_btn">文件上传</button></p>
+        上传方式：
+        <br/>
+        <br/>
+        <p><label>1.选择文件: <input type="file" id="upload_input"/></label></p>
+        <div id="file_drop" dropzone="copy" title="drop files for upload">2.拖动文件至此</div>
+    </div>
+    <div class="downdiv">
+        生成文件：
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <p>61地址（千万不要带？以及后面参数）：<input type="text" id="urlpath"></input><input type="button" id="cpfile" value="生成文件"></input>
+        </p>
+    </div>
+
+</body>
+
+</html>
